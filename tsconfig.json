@@ -1,15 +1,10 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "lib": ["es2019"],
-    "paths": {
-      "*": ["./typings/*"]
-    },
-    "resolveJsonModule": true,
+    "lib": ["ES2022"],
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
     "strict": true,
-    "sourceMap": true,
-    "target": "es2019"
+    "target": "ES2022",
   },
   "include": ["src"]
 }
